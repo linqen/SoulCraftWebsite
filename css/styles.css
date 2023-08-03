@@ -11329,6 +11329,16 @@ p {
   font-weight: 700;
 }
 
+#btn-whitetxt{
+  font-size: 18px !important;
+  color: #ffc800 !important;
+}
+
+#btn-whitetxt:hover{
+  color: white !important;
+  transform: scale(1.05);
+}
+
 .btn-social {
   height: 2.5rem;
   width: 2.5rem;
