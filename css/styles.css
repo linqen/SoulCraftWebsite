@@ -11811,6 +11811,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #e6e6e6 !important;
 }
 
-#portfolio .text-muted {
+#portfolio .text-muted,
+#services .text-muted {
   color: #959595 !important;
+}
+
+#services {
+  /* background-color: #1f2021 !important; */
+  background-color: #1a1a1e !important;
 }
