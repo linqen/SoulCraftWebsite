@@ -11445,9 +11445,6 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.5rem;
   margin-bottom: 2rem;
-  background: linear-gradient(135deg, rgba(255,255,255,1) 9%, rgba(255,200,0,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   width: fit-content;
   margin: 0 auto 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11480,6 +11477,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -11501,15 +11499,18 @@ header.masthead .masthead-heading {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#portfolio .portfolio-item:hover .portfolio-hover {
   opacity: 1;
+}
+#portfolio .portfolio-item:hover .portfolio-caption {
+  color: #ffc800 !important;
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  /* background-color: #fff; */
   background-color: #1a1a1e;
-  color: #fff;
+  color: white;
+  transition: color ease-in-out 0.25s;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11824,13 +11825,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #team {
   background-color: #27272b !important;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
-  text-align: center;
-  background-color: #1a1a1e;
-  color: white;
 }
 
 header.masthead .masthead-heading {
