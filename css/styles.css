@@ -11870,3 +11870,8 @@ header.masthead .masthead-heading {
     border-bottom-left-radius: 200px;
   }
 }
+
+#gradient-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
