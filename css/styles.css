@@ -11851,7 +11851,6 @@ header.masthead .masthead-heading {
   padding-bottom: 2rem !important;
   background-color: #27272b !important;
   border-radius: 40px;
-  border-bottom-left-radius: 100px;
 }
 
 .modal-content p {
@@ -11873,7 +11872,6 @@ header.masthead .masthead-heading {
   .modal-content {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
-    border-bottom-left-radius: 200px;
   }
 }
 
