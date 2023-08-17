@@ -11883,3 +11883,18 @@ header.masthead .masthead-heading {
 .portfolio-modal .btn-xl {
   margin-top: 10px !important;
 }
+
+.portfolio-link,
+.portfolio-hover,
+.portfolio-hover-content,
+.portfolio-item,
+.img-fluid {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.portfolio-caption,
+.portfolio-item {
+  border-bottom-left-radius: 85px;
+  border-bottom-right-radius: 85px;
+}
