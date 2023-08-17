@@ -11335,6 +11335,7 @@ p {
 #btn-whitetxt{
   font-size: 18px !important;
   color: #ffc800 !important;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 #btn-whitetxt:hover{
@@ -11761,8 +11762,9 @@ section#contact .container {
   z-index: 99;
   position: relative;
 }
-section#contact .section-heading {
-  color: #fff;
+section#contact .section-heading,
+section#contact .section-subheading  {
+  color: #e6e6e6;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
