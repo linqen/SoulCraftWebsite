@@ -11852,7 +11852,7 @@ header.masthead .masthead-heading {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
   background-color: #27272b !important;
-  border-radius: 40px;
+  /* border-radius: 40px; */
 }
 
 .modal-content p {
@@ -11886,17 +11886,31 @@ header.masthead .masthead-heading {
   margin-top: 10px !important;
 }
 
+
+/* Border radius of popup */
+.modal-content {
+  border-radius: 40px;
+
+  /*border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px; */
+}
+
+/* Border top radius of cards */
 .portfolio-link,
 .portfolio-hover,
 .portfolio-hover-content,
 .portfolio-item,
-.img-fluid {
+.portfolio-link .img-fluid {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
 
+/* Border bottom radius of cards */
 .portfolio-caption,
 .portfolio-item {
   border-bottom-left-radius: 85px;
   border-bottom-right-radius: 85px;
+
+  /* border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; */
 }
