@@ -11423,17 +11423,17 @@ p {
     margin-right: 0;
   }
 }
+
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background: linear-gradient(rgb(0 0 0 / 15%), rgb(0 0 0 / 15%)),url(../assets/img/header-bg.jpg);
+  text-align: center center;
+  background: url(../assets/img/logos/SoulcraftGames_Logo.png);
+  background-color: rgba(31, 21, 45, 1);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  border: inset 50px transparent;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
